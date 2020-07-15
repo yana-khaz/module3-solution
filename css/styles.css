@@ -1,0 +1,40 @@
+#header-nav {
+	background-color: #123456;
+	/*height: 80px;*/
+	border-radius: 0;
+}
+
+.navbar-brand h1 {
+	color: white;
+	text-shadow: 1px 1px 1px gray;
+	/*margin-top: 5px;*/
+	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+	color: gray;
+	background: #E7E7E7;
+}
+
